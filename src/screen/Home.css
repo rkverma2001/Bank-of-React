@@ -10,3 +10,8 @@
 .graph {
     width: 50%;
 }
+
+.pie-graph {
+    width: 400px;
+    margin: 50px;
+}
