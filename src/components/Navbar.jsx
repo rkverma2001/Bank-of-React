@@ -1,8 +1,7 @@
-import React from 'react'
-
+import '../components/Navbar.css'
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="navbar">
         <h1>
             Bank of React
         </h1>
