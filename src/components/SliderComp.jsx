@@ -1,7 +1,6 @@
 import Slider from "@mui/material/Slider";
 import "../components/SliderComp.css";
 const SliderComp = ({ min, max, step, value, symbol, title, setValue }) => {
-
   function valuetext(value) {
     return `${value}°C`;
   }
@@ -9,9 +8,7 @@ const SliderComp = ({ min, max, step, value, symbol, title, setValue }) => {
   return (
     <div>
       <div>
-        <p>
-          {title}
-        </p>
+        <p>{title}</p>
       </div>
       <div>
         <h2>
@@ -30,7 +27,7 @@ const SliderComp = ({ min, max, step, value, symbol, title, setValue }) => {
           min={min}
           max={max}
           onChange={(e) => {
-            setValue(e.target.value)
+            setValue(e.target.value);
           }}
         />
       </div>

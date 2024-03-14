@@ -1,11 +1,11 @@
-import * as React from 'react';
-import InputLabel from '@mui/material/InputLabel';
-import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
-import Select from '@mui/material/Select';
+import * as React from "react";
+import InputLabel from "@mui/material/InputLabel";
+import MenuItem from "@mui/material/MenuItem";
+import FormControl from "@mui/material/FormControl";
+import Select from "@mui/material/Select";
 
 export default function SelectAutoWidth(props) {
-  const [tenure, setTenure] = React.useState('');
+  const [tenure, setTenure] = React.useState("");
 
   const handleChange = (event) => {
     setTenure(event.target.value);
@@ -15,7 +15,9 @@ export default function SelectAutoWidth(props) {
   return (
     <div>
       <FormControl sx={{ m: 3, minWidth: 380 }}>
-        <InputLabel id="demo-simple-select-autowidth-label">Select Tenure</InputLabel>
+        <InputLabel id="demo-simple-select-autowidth-label">
+          Select Tenure
+        </InputLabel>
         <Select
           labelId="demo-simple-select-autowidth-label"
           id="demo-simple-select-autowidth"
